@@ -3,7 +3,7 @@ Portfolio Website
 
 ## Introduction
 
-This html page display the portfolio of projects. In this project html and CSS is used.
+This html page displays the portfolio. This project uses HTML and CSS.
 
 ### Files included in this project
 
@@ -11,7 +11,9 @@ This html page display the portfolio of projects. In this project html and CSS i
 
 * [style.css](https://github.com/Vinaykmr93/Portfolio/blob/master/style.css)file consist of style code for the webpage that makes the page looks beautiful.
 
-In the Featured work Movie Website, Recipe and Own Adventure included  have provided the GitHub link for that. 
+#### HTML and CSS versions used
+* HTML5
+* CSS3
 
 ### Pre-requisite
 Anyone of the browser needs to be installed, Google chrome,Mozilla Firefox, etc
@@ -22,7 +24,7 @@ Please feel free to download my project [Portfolio Website]
 
 To execute this project open the index.html file in browser.
 
-### Compactability
+### Compatability
 Google chrome browser, Nexus 5 emulator, ipad emulator, etc.
 
 ### Contributors
