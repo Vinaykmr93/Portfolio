@@ -7,9 +7,9 @@ This html page displays the portfolio. This project uses HTML and CSS.
 
 ### Files included in this project
 
-* [index.html](https://github.com/Vinaykmr93/Portfolio/blob/master/index.html) file contains the html code for partion the page.
+* [index.html](index.html) file contains the html code for partion the page.
 
-* [style.css](https://github.com/Vinaykmr93/Portfolio/blob/master/style.css)file consist of style code for the webpage that makes the page looks beautiful.
+* [style.css](style.css)file consist of style code for the webpage that makes the page looks beautiful.
 
 #### HTML and CSS versions used
 * HTML5
