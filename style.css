@@ -1,0 +1,127 @@
+.logo{
+	width: 100px;
+	height:100px;
+	margin-left:20%;
+}
+.user{
+	float:right;
+	font-family: lucida;
+	color: #C2BFBF;
+	margin: 25px 0 0 0;
+	margin-right: 10%;
+}
+.usertitle {
+	font-family: lucida;
+	color: #C2BFBF;
+	float:right;
+	clear:right;
+	margin: 10px 0 0 0;
+	line-height: 0;
+	margin-right: 10%;
+}
+.headerline{
+	width:70%;
+	float:right;
+	height: 2px;
+	color: gray;
+	background-color: gray;
+	margin-right: 10%;
+}
+.main{
+	margin-right: 10%;
+}
+.middlepic{
+	float: right;
+	width: 70%;
+	height: 40%;
+}
+.side{
+	border: 1px transparent gray;
+	width: 20%;
+	height: 100%;
+	display: block;	
+	margin: 5% 0 0 0;	
+}
+.sidecolor{
+	width: 50px;
+	height: 50px;
+	margin-left: 41%;
+}
+.blue{
+	background-color: #483D8B;
+}
+.Sandybrown{
+	background-color: #F4A460;
+}
+.DarkKhaki{
+	background-color: #BDB76B;
+}
+.featuredwork{
+	color:gray;
+	margin: 0 0 0 10px;
+}
+.work{
+	display: inline-block;
+}
+.pics{
+	width: 348px;
+	height: 300px;
+}
+.lowerbottom{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+.bottom{
+	border: 1px solid black;
+	height:20px;
+	margin: 30px 0 0 0;
+	background-color: #635b5b;
+}	
+.lowerbottomtext{
+	font-size: 15px; 
+	color: gray; 
+	text-align: center;
+	line-height: 0;
+}
+@media screen and (max-width: 450px){
+	.pics{
+	width: 100px;
+	height: 100px;
+	}
+	.middlepic {
+		width: 200px;
+		height: 150px;
+	}
+	.logo{
+		width: 40px;
+		height: 40px;
+	}
+	.user{
+	 	float:right;
+		font-size: 10px;
+		font-family: lucida;
+		color: #C2BFBF;
+		margin: 25px 0 0 0;
+		margin-right: 10%;
+	}
+	.usertitle {
+		font-family: lucida;
+		font-size: 10px;
+		color: #C2BFBF;
+		float:right;
+		clear:right;
+		margin: 10px 0 0 0;
+		line-height: 0;
+		margin-right: 10%;
+	}
+	.sidecolor{
+	width: 30px;
+	height: 30px;
+	margin-left: 41%;
+}
+.sidecolortext{
+	font-family: lucida;
+	font-size: 15px;
+	text-align:center
+}
+}
