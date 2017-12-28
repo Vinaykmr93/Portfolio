@@ -19,7 +19,7 @@ This html page displays the portfolio. This project uses HTML and CSS.
 Anyone of the browser needs to be installed, Google chrome,Mozilla Firefox, etc
 
 ### Program Execution
-Please feel free to download my project [Portfolio Website](https://github.com/Vinaykmr93/Portfolio.git)
+Feel free to download my project [Portfolio Website](https://github.com/Vinaykmr93/Portfolio.git)
 
 To execute this project open the index.html file in browser.
 
