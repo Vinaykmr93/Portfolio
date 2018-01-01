@@ -1,0 +1,150 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	width: 100px;
+	height:100px;
+	margin-left: 15%;
+}
+.title {
+	width: 25%;
+	margin-right: 5%;	
+	font-family: lucida;
+}
+.user {
+	margin: 10px 0 0 0;
+	font-family: lucida;
+}
+.user-title {
+	margin: 0 0 0 10px;
+	text-align: right;
+	margin-right: 23%;
+	font-family: lucida;
+}
+.header-line {
+	margin-left: 15%;
+	width: 80%;
+	height: 2px;
+	background-color: gray;
+}
+.middle {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 0 0;
+}
+.side {
+	height: 80%;
+	margin-left: 5%;
+}
+.side-color {
+	width: 40px;
+	height: 40px;
+	margin-left: 25%;
+}
+.blue {
+	background-color: #483D8B;
+}
+.sandy-brown {
+	background-color: #F4A460;
+}
+.dark-khaki {
+	background-color: #BDB76B;
+}
+.middlepic {
+	width: 90%;
+	height: 450px;
+}
+.main {
+	display: flex;
+	justify-content: flex-end;
+	margin-right:5%;
+	margin-left: 5%;
+}
+.lower-bottom {
+	display: flex;
+	margin-left: 20%;
+}
+.pics {
+	height: 70%;
+	width: 70%;
+}
+.featured-work {
+	margin-left: 20%;
+	margin: 0 0 0 0;
+}
+.common {
+	width: 33.3%;
+}
+.lower-bottom-link {
+	font-size: 16px;
+	text-align: center;
+	font-family: lucida;
+}
+.lower-bottom-text {
+	font-family: lucida;
+	font-size: 24px;
+	margin-left: 18%;
+	color:gray; 
+	line-height:0
+}		
+.lower {
+	margin-left: 20%;
+}
+@media screen and (min-width: 601px) and (max-width: 1040px){
+	.user {
+		font-size: 20px;
+	}
+	.user-title {
+		font-size: 15px;
+	}
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+}
+@media screen and (max-width: 600px){
+	.user {
+		font-size: 12px;
+	}
+	.user-title {
+		font-size: 10px;
+	}
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+	.middlepic {
+		width: 90%;
+		height: 300px;
+	}
+	.side-color {
+		width: 35px;
+		height: 35px;
+		margin-left: 25%;
+	}
+	.blue {
+		font-size: 10px;
+		background-color: #483D8B;
+	}
+	.sandy-brown {
+		font-size: 10px;
+		background-color: #F4A460;
+	}
+	.dark-khaki {
+		font-size: 10px;
+		background-color: #BDB76B;
+	}
+	.lower-bottom-link {
+		font-size: 10px;
+		text-align: center;
+		font-family: lucida;
+	}
+	.lower-bottom-text {
+		font-family: lucida;
+		font-size: 14px;
+		margin-left: 18%;
+		color:gray; 
+		line-height:0;
+	}
+}
