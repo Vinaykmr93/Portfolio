@@ -1,127 +1,150 @@
-.logo{
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
 	width: 100px;
 	height:100px;
-	margin-left:20%;
+	margin-left: 15%;
 }
-.user{
-	float:right;
+.title {
+	width: 25%;
+	margin-right: 5%;	
 	font-family: lucida;
-	color: #C2BFBF;
-	margin: 25px 0 0 0;
-	margin-right: 10%;
 }
-.usertitle {
-	font-family: lucida;
-	color: #C2BFBF;
-	float:right;
-	clear:right;
+.user {
 	margin: 10px 0 0 0;
-	line-height: 0;
-	margin-right: 10%;
+	font-family: lucida;
 }
-.headerline{
-	width:70%;
-	float:right;
+.user-title {
+	margin: 0 0 0 10px;
+	text-align: right;
+	margin-right: 23%;
+	font-family: lucida;
+}
+.header-line {
+	margin-left: 15%;
+	width: 80%;
 	height: 2px;
-	color: gray;
 	background-color: gray;
-	margin-right: 10%;
 }
-.main{
-	margin-right: 10%;
+.middle {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 0 0;
 }
-.middlepic{
-	float: right;
-	width: 70%;
-	height: 40%;
+.side {
+	height: 80%;
+	margin-left: 5%;
 }
-.side{
-	border: 1px transparent gray;
-	width: 20%;
-	height: 100%;
-	display: block;	
-	margin: 5% 0 0 0;	
+.side-color {
+	width: 40px;
+	height: 40px;
+	margin-left: 25%;
 }
-.sidecolor{
-	width: 50px;
-	height: 50px;
-	margin-left: 41%;
-}
-.blue{
+.blue {
 	background-color: #483D8B;
 }
-.Sandybrown{
+.sandy-brown {
 	background-color: #F4A460;
 }
-.DarkKhaki{
+.dark-khaki {
 	background-color: #BDB76B;
 }
-.featuredwork{
-	color:gray;
-	margin: 0 0 0 10px;
+.middlepic {
+	width: 90%;
+	height: 450px;
 }
-.work{
-	display: inline-block;
+.main {
+	display: flex;
+	justify-content: flex-end;
+	margin-right:5%;
+	margin-left: 5%;
 }
-.pics{
-	width: 348px;
-	height: 300px;
-}
-.lowerbottom{
+.lower-bottom {
+	display: flex;
 	margin-left: 20%;
-	margin-top: 5%;
 }
-.bottom{
-	border: 1px solid black;
-	height:20px;
-	margin: 30px 0 0 0;
-	background-color: #635b5b;
-}	
-.lowerbottomtext{
-	font-size: 15px; 
-	color: gray; 
+.pics {
+	height: 70%;
+	width: 70%;
+}
+.featured-work {
+	margin-left: 20%;
+	margin: 0 0 0 0;
+}
+.common {
+	width: 33.3%;
+}
+.lower-bottom-link {
+	font-size: 16px;
 	text-align: center;
-	line-height: 0;
+	font-family: lucida;
 }
-@media screen and (max-width: 450px){
-	.pics{
-	width: 100px;
-	height: 100px;
+.lower-bottom-text {
+	font-family: lucida;
+	font-size: 24px;
+	margin-left: 18%;
+	color:gray; 
+	line-height:0
+}		
+.lower {
+	margin-left: 20%;
+}
+@media screen and (min-width: 601px) and (max-width: 1040px){
+	.user {
+		font-size: 20px;
+	}
+	.user-title {
+		font-size: 15px;
+	}
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+}
+@media screen and (max-width: 600px){
+	.user {
+		font-size: 12px;
+	}
+	.user-title {
+		font-size: 10px;
+	}
+	.logo {
+		width: 50px;
+		height: 50px;
 	}
 	.middlepic {
-		width: 200px;
-		height: 150px;
+		width: 90%;
+		height: 300px;
 	}
-	.logo{
-		width: 40px;
-		height: 40px;
+	.side-color {
+		width: 35px;
+		height: 35px;
+		margin-left: 25%;
 	}
-	.user{
-	 	float:right;
+	.blue {
 		font-size: 10px;
-		font-family: lucida;
-		color: #C2BFBF;
-		margin: 25px 0 0 0;
-		margin-right: 10%;
+		background-color: #483D8B;
 	}
-	.usertitle {
-		font-family: lucida;
+	.sandy-brown {
 		font-size: 10px;
-		color: #C2BFBF;
-		float:right;
-		clear:right;
-		margin: 10px 0 0 0;
-		line-height: 0;
-		margin-right: 10%;
+		background-color: #F4A460;
 	}
-	.sidecolor{
-	width: 30px;
-	height: 30px;
-	margin-left: 41%;
-}
-.sidecolortext{
-	font-family: lucida;
-	font-size: 15px;
-	text-align:center
-}
+	.dark-khaki {
+		font-size: 10px;
+		background-color: #BDB76B;
+	}
+	.lower-bottom-link {
+		font-size: 10px;
+		text-align: center;
+		font-family: lucida;
+	}
+	.lower-bottom-text {
+		font-family: lucida;
+		font-size: 14px;
+		margin-left: 18%;
+		color:gray; 
+		line-height:0;
+	}
 }
