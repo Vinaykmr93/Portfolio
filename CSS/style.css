@@ -3,11 +3,9 @@ header {
 	justify-content: space-between;
 }
 
-.logo {
-	width: 100px;
-	height:100px;
+body {
+	font-family: lucida, serif;
 }
-
 .logo-main {
 	margin-left: 15%;
 }
@@ -16,19 +14,15 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	font-family: lucida;
 	margin-right: 5%;
 }
 
 .user {
 	margin: 10px 0 0 0;
-	font-family: lucida;
 }
 
 .user-title {
 	margin: 0 0 0 10px;
-	
-	font-family: lucida;
 }
 
 .header-line {
@@ -57,6 +51,7 @@ header {
 .side-color-text {
 	font-size: 26px;
 	text-align: center;
+	margin-left: 15%;
 }
 .blue {
 	background-color: #483d8b;
@@ -98,9 +93,8 @@ header {
 }
 
 .lower-bottom-link {
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
-	font-family: lucida;
 	word-break: break-all;
 }
 
@@ -123,10 +117,10 @@ header {
 	.user-title {
 		font-size: 15px;
 	}
-	
+
 	.logo {
-		width: 50px;
-		height: 50px;
+		width: 70px;
+		height: auto;
 	}
 	
 	.side-color {
@@ -138,6 +132,7 @@ header {
 	.side-color-text {
 		font-size: 14px;
 		text-align: center;
+		margin-left: 15%;
 	}
 }
 
@@ -153,7 +148,7 @@ header {
 	
 	.logo {
 		width: 50px;
-		height: 50px;
+		height: auto;
 	}
 	
 	.side-color {
@@ -172,10 +167,10 @@ header {
 	.featured-work {
 		font-size: 14px;
 	}
+	
 	.lower-bottom-link {
 		font-size: 10px;
 		text-align: center;
-		font-family: lucida;
 		word-break: break-all;
 	}
 	
@@ -184,4 +179,5 @@ header {
 		text-align: center;
 		color: gray;
 	}
+	
 }
